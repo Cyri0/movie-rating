@@ -16,3 +16,18 @@ If works (movievenv) appears on terminal
 Then install the backend requirements
 
 `pip install -r requirements.txt`
+
+Frontend setup
+
+`cd backend\frontend\`
+
+`npm i`
+
+`npm run build`
+
+Migrate DB and run server
+
+`python manage.py migrate`
+
+`python manage.py runserver`
+
